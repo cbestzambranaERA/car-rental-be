@@ -1,4 +1,4 @@
-const knex = require('../data/dbconfig');
+const knex = require('../data/dbConfig');
 
 async function getAllVehicles() {
     return knex('vehicles').select('*');
