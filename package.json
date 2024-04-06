@@ -1,0 +1,25 @@
+{
+  "name": "car-rental-be",
+  "version": "1.0.0",
+  "description": "car-rental backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesBZ/car-rental-be.git"
+  },
+  "author": "Charles A. Best-Zambrana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharlesBZ/car-rental-be/issues"
+  },
+  "homepage": "https://github.com/CharlesBZ/car-rental-be#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
